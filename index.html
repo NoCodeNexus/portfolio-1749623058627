@@ -1,0 +1,216 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sci-Fi Portfolio - Prabhat Yadav</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #ddd;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #111;
+            padding: 2em 0;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+        }
+
+        header p {
+            font-style: italic;
+            color: #aaa;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #eee;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #bbb;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #111;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h2, h3 {
+            color: #ddd;
+            margin-bottom: 0.5em;
+        }
+
+        .project {
+            border: 1px solid #333;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .project p {
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #111;
+            color: #ddd;
+            text-align: center;
+            padding: 1em 0;
+            width: 100%;
+            border-top: 1px solid #333;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            nav a {
+                display: block;
+                text-align: center;
+                padding: 0.5em;
+            }
+        }
+
+        /* Sci-Fi Theme Enhancements */
+        body {
+            background-image: url('https://images.unsplash.com/photo-1542496658-e4204962002e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNjaWZpfGVufDB8fDB8fHx8MA%3D%3D&w=1920&q=80');
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+
+        .container, header, nav, footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-color: #444;
+        }
+
+        /* Glowing Button Effect */
+        .project a {
+            display: inline-block;
+            padding: 0.75em 1.5em;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+        }
+
+        .project a:hover {
+            background-color: #0056b3;
+            box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+
+    <header>
+        <h1>Prabhat Yadav</h1>
+        <p>B.Tech Final Year - Sci-Fi Portfolio</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>A passionate B.Tech final year student with a love for science fiction and technology. I specialize in AI/ML and am eager to contribute to innovative projects.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <img src="https://via.placeholder.com/600x300" alt="Project 1">
+                <h3>Sentient AI Assistant - "Athena"</h3>
+                <p>An AI-powered virtual assistant capable of complex problem-solving and natural language understanding. Built using Python, TensorFlow, and GPT-3.</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project">
+                <img src="https://via.placeholder.com/600x300" alt="Project 2">
+                <h3>Predictive Maintenance System for Starship Engines</h3>
+                <p>Developed a machine learning model to predict engine failures in spacecraft using sensor data. Implemented with scikit-learn and deployed on a cloud platform.</p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project">
+                <img src="https://via.placeholder.com/600x300" alt="Project 3">
+                <h3>AI-Driven Resource Allocation for Lunar Colony</h3>
+                <p>Created an AI system to optimize resource allocation in a simulated lunar colony environment. Used reinforcement learning techniques in Python.</p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>TensorFlow</li>
+                <li>scikit-learn</li>
+                <li>Reinforcement Learning</li>
+                <li>GPT-3</li>
+                <li>AI/ML Development</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: [Your Email]</p>
+            <p>LinkedIn: [Your LinkedIn Profile URL]</p>
+            <p>GitHub: [Your GitHub Profile URL]</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2023 Prabhat Yadav - Sci-Fi Portfolio
+    </footer>
+
+    <script>
+        // JavaScript can be added here for interactive elements
+        console.log('Sci-Fi Portfolio Loaded');
+    </script>
+
+</body>
+</html>
+```
